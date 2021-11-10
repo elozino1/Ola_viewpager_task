@@ -9,7 +9,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        var numbers = listOf("1", "2", "3", "4")
+        val numbers = listOf("1", "2", "3", "4")
 
         val cardViewPagerAdapter = CardViewPagerAdapter(numbers)
         val viewPager = findViewById<ViewPager2>(R.id.view_pager)
